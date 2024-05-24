@@ -1,6 +1,6 @@
 REST API
 
-
+//Day 1 
 //GET /getusers --> this will list all the users 
 //GET /users/1 --> this will give me the user with id 1
 
@@ -10,3 +10,8 @@ REST API
 
 
 //DELETE /users/1 --> this wlll delete the user with id 1
+
+/**************  ALL TASKS ARE DONE  ****************/
+
+//DAY 2
+
