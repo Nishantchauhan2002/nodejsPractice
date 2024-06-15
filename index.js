@@ -93,10 +93,10 @@ app.post("/api/users", async (req, res) => {
 
   /* ********************* This code is for pushing the user in the file ********************  */
 
-  //   users.push({ ...bodyData, id: users.length });
-  //   fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (err, data) => {
-  //     res.json({ status: "Success", id: users.length + 1 });
-  //   });
+    users.push({ ...bodyData, id: users.length });
+    fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (err, data) => {
+      res.json({ status: "Success", id: users.length + 1 });
+    });
 
   /* **************************** This code is used for pushing in to the db ************************  */
   const result = await User.create({
