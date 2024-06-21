@@ -1,9 +1,9 @@
 const express = require("express");
 const users = require("./MOCK_DATA.json");
-const mongoose = require("mongoose");
-const fs = require("fs");
-const { emitWarning } = require("process");
-const { type } = require("os");
+// const mongoose = require("mongoose");
+// const fs = require("fs");
+// const { emitWarning } = require("process");
+// const { type } = require("os");
 const { error } = require("console");
 const app = express();
 const PORT = 3838;
